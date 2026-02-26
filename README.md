@@ -27,6 +27,7 @@ In the realm of evaluating large language models, automated LLM-based evaluation
 | [**GPTScore: Evaluate as You Desire**](https://arxiv.org/abs/2302.04166) by Jinlan Fu, See-Kiong Ng, Zhengbao Jiang, Pengfei Liu | EMNLP         | 2023 | 228            | [Github](https://github.com/jinlanfu/GPTScore)               |
 | [**Exploring the Use of Large Language Models for Reference-Free Text Quality Evaluation: An Empirical Study**](https://arxiv.org/abs/2304.00723) by Yi Chen, Rui Wang, Haiyun Jiang, Shuming Shi, Ruifeng Xu | arXiv         | 2023 | 39             | -                                                            |
 | **[Evaluating General-Purpose AI with Psychometrics](https://arxiv.org/abs/2310.16379)** by Xiting Wang, Liming Jiang, Jose Hernandez-Orallo, David Stillwell, Luning Sun, Fang Luo, Xing Xie | arXiv         | 2023 | 3              | -                                                            |
+
 ## Psychometrics in LLMs evaluation
 
 | Title & Authors                                              | Venue   | Year | Citation Count | Code                                                |
@@ -41,4 +42,6 @@ In the realm of evaluating large language models, automated LLM-based evaluation
 | **[MINT: Evaluating LLMs in Multi-turn Interaction with Tools and Language Feedback](https://arxiv.org/abs/2309.10691)** by Xingyao Wang, Zihan Wang, Jiateng Liu, Yangyi Chen, Lifan Yuan, Hao Peng and Heng Ji | ICLR    | 2024 | 37             | [Github](https://github.com/xingyaoww/mint-bench)   |
 | **[GPT-4’s assessment of its performance in a USMLE-based case study](https://arxiv.org/html/2402.09654v2)** by Uttam Dhakal, Aniket Kumar Singh, Suman Devkota, Yogesh Sapkota, Bishal Lamichhane, Suprinsa Paudyal, Chandra Dhakal | arXiv   | 2024 | 1              | -                                                   |
 
-​              
+## Robustness & stress-test resources
+
+- [WFGY 3.0 · Singularity Demo](https://github.com/onestardao/WFGY/blob/main/TensionUniverse/EventHorizon/README.md) – TXT-based long-horizon tension reasoning engine over 131 S-class questions, used as a stress test for LLM robustness under sustained reasoning. Includes the [WFGY ProblemMap](https://github.com/onestardao/WFGY/blob/main/ProblemMap/README.md), a 16-problem failure map for RAG / LLM pipelines that helps diagnose common failure modes.
